@@ -1,0 +1,16 @@
+:root {
+    /* fontes */
+    --font-dms-sans: "DM Sans", sans-serif;
+
+    /* cores */
+    --color-background: #000;
+    --color-sidebar: #121212;
+    --color-font-title: #b3b3b3;
+    --color-gray:#878787;
+    --color-block-playlist: #242424;
+    --color-white: #fff;
+    --color-gradiente: linear-gradient(to right, #ae2896, #509bf5);
+
+    --bg-icon: #131313;
+    --bg-arrow-color: rgba(0,0,007)
+}
