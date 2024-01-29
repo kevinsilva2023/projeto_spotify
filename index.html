@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imersão | Spotify</title>
-    <link rel="shortcut icon" href="src/assets/icons/favicon.png" type="image/x-icon">
+    <title>Projeto Spotify | Kevin Silva</title>
+    <link rel="shortcut icon" href="src/assets/icons/logo_favicon_64.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="src/styles/reset.css"> <!--resetando todas pre-formaçoes do css-->
     <link rel="stylesheet" href="src/styles/vars.css">
     <link rel="stylesheet" href="src/styles/sidebar-footer.css">
     <link rel="stylesheet" href="src/styles/main-content.css">
+    <link rel="stylesheet" href="src/styles/media-queries.css"> <!--media-queries sempre vem no final-->
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
         integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
@@ -239,9 +240,28 @@
                         </div>
                     </div>
                 </div>
+                <div id="result-artist" class="hidden">
+                    <div class="grid-container">
+                        <div class="artist-card" id="">
+                            <div class="card-img">
+                                <img id="artist-img" class="artist-img" />
+                                <div class="play">
+                                    <span class="fa fa-solid fa-play"></span>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <a title="Foo Fighters" class="vst" href=""></a>
+                                <span id="artist-name" class="artist-name" ></span>
+                                <span class="artist-categorie">Artista</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
+
     <footer class="disclaimer-premium">
         <div class="text">
           <p class="disclaimer-premium__title">Testar o Premium de graça</p>
@@ -254,5 +274,7 @@
           <button type="button">Inscreva-se grátis</button>
         </div>
       </footer>
+
+      <script type="text/javascript" src="scripts.js"></script>
 </body>
 </html>
